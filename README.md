@@ -1,4 +1,14 @@
 # VirtualPetBattleArena
+## Quickstart
+
+Este repositorio contiene un esqueleto inicial de microservicios en Spring Boot y Gradle. Para compilar todos los servicios usa:
+
+```bash
+./gradlew build
+```
+
+Puedes iniciar los servicios con `docker-compose up`.
+
 
 # Virtual Pet Battle Arena: Proyecto Integral de Java para Dominio Completo del LenguajeTe presento **Virtual Pet Battle Arena**, un proyecto comprehensivo de Java que combina entretenimiento con aprendizaje profundo de todos los conceptos del lenguaje, desde fundamentos hasta arquitecturas empresariales avanzadas. Este sistema de batalla de mascotas virtuales multijugador implementa una arquitectura de microservicios completa, permitiendo practicar desde programación orientada a objetos hasta patrones de diseño complejos en un ambiente local completamente simulado .
 
