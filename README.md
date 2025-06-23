@@ -17,9 +17,9 @@ Para preparar el entorno de desarrollo necesitas instalar:
    git clone https://github.com/tu-usuario/VirtualPetBattleArena.git
    cd VirtualPetBattleArena
    ```
-2. Compila todos los servicios con Gradle:
+2. Compila todos los servicios con Gradle (usando el wrapper incluido):
    ```bash
-   gradle build
+   ./gradlew build      # en Windows usa gradlew.bat
    ```
 3. Inicia el entorno local con Docker Compose:
    ```bash
@@ -39,8 +39,8 @@ Para preparar el entorno de desarrollo necesitas instalar:
 
 ## Comandos útiles
 
-- `gradle build` – Compila todos los módulos
-- `gradle test` – Ejecuta las pruebas (si existen)
+- `./gradlew build` – Compila todos los módulos
+- `./gradlew test` – Ejecuta las pruebas (si existen)
 
 ## Licencia
 
